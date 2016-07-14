@@ -1,15 +1,24 @@
-//this function includes all necessary js files for the application
-function include(file)
-{
+jQuery.cachedScript = function( url, options ) {
 
-  var script  = document.createElement('script');
-  script.src  = file;
-  script.type = 'text/javascript';
-  script.defer = true;
+    // Allow user to set any option except for dataType, cache, and url
+    options = $.extend( options || {}, {
+        dataType: "script",
+        cache: true,
+        url: url
+    });
 
-  document.getElementsByTagName('head').item(0).appendChild(script);
+    // Use $.ajax() since it is more flexible than $.getScript
+    // Return the jqXHR object so we can chain callbacks
+    return jQuery.ajax( options );
+};
 
-}
+// Usage
+$.cachedScript( "//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" ).done(function( script, textStatus ) {
+    console.log( textStatus );
+});
+$.cachedScript( "//rawgit.com/golfing4ca/s3ShareIt/master/js/s3ShareIt.js" ).done(function( script, textStatus ) {
+    console.log( textStatus );
+});
 
 /* include any js files here */
 include('//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js');
