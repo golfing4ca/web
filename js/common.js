@@ -20,7 +20,7 @@ $.cachedScript( "//rawgit.com/golfing4ca/s3ShareIt/master/js/s3ShareIt.js" ).don
     console.log( textStatus );
 });
 
-/* include any js files here */
+/* include any js files here
 include('//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js');
 include('//rawgit.com/golfing4ca/s3ShareIt/master/js/s3ShareIt.js');
 
