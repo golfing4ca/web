@@ -17,9 +17,9 @@ jQuery(document).ready(function($){
  }; 
   
  // load the css file 
- loadCSS("//cdn.rawgit.com/golfing4ca/web/js/style.css");
+ loadCSS("//cdn.rawgit.com/golfing4ca/web/master/js/style.css");
 
  // load the js file 
- loadJS("//cdn.rawgit.com/golfing4ca/web/js/one.js");
+ loadJS("//cdn.rawgit.com/golfing4ca/web/master/js/one.js");
 
 });
