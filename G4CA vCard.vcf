@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:4.0
+PRODID:-//BBros.us llc//bvCard.com//EN
+PHOTO;MEDIATYPE=image/png:http://cdn.rawgit.com/golfing4ca/web/master/images/logo.png
+EMAIL;PREF;INTERNET:contact@golfing4ca.org
+ORG:Golfing for Cancer Awareness, Inc.
+TEL;WORK;VOICE:(678) 779-0318
+URL;type=pref:https://www.golfing4ca.org
+ADR:WORK:;;6364 Greenock Drive;;Stone Mountain;GA 30087;;United States
+URL:https://www.facebook.com/golfing4ca
+URL:https://plus.google.com/+golfing4caOrg
+URL:https://www.youtube.com/c/golfing4caOrg
+URL:https://twitter.com/golfing4ca
+END:VCARD
