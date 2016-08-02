@@ -1,7 +1,7 @@
 //Load Header
 $(function(){
 
-  $.get('/__menu', function(result){
+  $.get('//golfing4ca.org/__menu', function(result){
     $result = $(result);
     
     $result.find('link').appendTo('#header');
