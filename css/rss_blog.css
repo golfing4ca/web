@@ -66,8 +66,8 @@ img {
 }
 
 #content .feed_item {
-  margin: 0 0 7px 0;
-  padding: 0 0 7px 0;
+  margin: 15px 0 15px 0;
+  padding: 15px 0 15px 0;
   border-bottom: 1px dashed #87CB40;
   clear: both;
 }
