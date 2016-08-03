@@ -1,6 +1,37 @@
-@import 'https://fonts.googleapis.com/css?family=Oswald';
+@import 'https://fonts.googleapis.com/css?family=Acme';
 
 .feed_item_title {
   font-size: 22px;
-  font-family: 'Oswald', sans-serif;  
+  font-family: 'Acme', sans-serif;
+  color: -webkit-link;
+  text-decoration: none;
+    margin: 1px 0 1px 3px;
+    padding: 1px 2px 1px 3px;
+    color: #9E86CD;
+    font-weight: bold;
+}
+
+.feed_item_title a:hover {
+    color: #9E86CD;
+    text-decoration: underline;
+}
+.feed_item_title a:visited {
+    color: #9E86CD;
+    text-decoration: none;
+}
+
+.feed_item_title a:link {
+    color: #9E86CD;
+    text-decoration: none;
+}
+.feed_item {
+    text-align: left;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 1100px;
+    height: 1200px;
+    font-family: Geneva, Arial, sans-serif;
+    font-size: 13px;
+    border: 0px solid #CCCCCC;
 }
