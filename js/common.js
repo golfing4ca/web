@@ -13,4 +13,5 @@ var node = document.createElement('script');
 //Navigation Header
 common$('head').append('<script src="https://cdn.golfing4ca.org/golfing4ca/s3ShareIt/master/js/s3ShareIt.js"></script>');
 common$('head').append('<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>');
+common$('head').append('<script src="//load.sumome.com/" data-sumo-site-id="12ee2b1c2563d228da54eed4f7s09ff32f5aea5ecba20d58c66580fea4d1cdf70" async="async"></script>');
 });
