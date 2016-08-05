@@ -2,6 +2,7 @@
 <HEAD>: document.head.appendChild(node);
 <BODY>: document.body.appendChild(node);
 */
+$(function() {
 /*
 //jQuery
 var node = document.createElement('script');
@@ -11,3 +12,4 @@ var node = document.createElement('script');
 //Navigation Header
 $('head').append('<script src="https://cdn.golfing4ca.org/golfing4ca/s3ShareIt/master/js/s3ShareIt.js"></script>');
 $('head').append('<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>');
+});
