@@ -10,10 +10,10 @@ var node = document.createElement('script');
 */
 //Navigation Header
 var node = document.createElement('script');
-    node.type = type="text/javascript";
+    node.type = "text/javascript";
     node.src = "//cdn.golfing4ca.org/golfing4ca/s3ShareIt/master/js/s3ShareIt.js";
-    document.body.appendChild(node);
-var node = document.createElement('script');
-    node.type = type="text/javascript";
+document.body.appendChild(node);
+node = document.createElement('script');
+    node.type = "text/javascript";
     node.src = "https://s3.amazonaws.com/menumaker/menumaker.min.js";
-    document.body.appendChild(node);
+document.body.appendChild(node);
