@@ -9,11 +9,5 @@ var node = document.createElement('script');
     document.body.appendChild(node);
 */
 //Navigation Header
-var node = document.createElement('script');
-    node.type = "text/javascript";
-    node.src = "//cdn.golfing4ca.org/golfing4ca/s3ShareIt/master/js/s3ShareIt.js";
-document.body.appendChild(node);
-node = document.createElement('script');
-    node.type = "text/javascript";
-    node.src = "https://s3.amazonaws.com/menumaker/menumaker.min.js";
-document.body.appendChild(node);
+$('head').append('<script src="https://cdn.golfing4ca.org/golfing4ca/s3ShareIt/master/js/s3ShareIt.js"></script>');
+$('head').append('<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>');
