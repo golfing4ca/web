@@ -4,10 +4,10 @@
 */
 $(function(common$) {
 console.log( "loading common styles" );
-common$('head').append('<link rel="stylesheet" type="text/css" href="//siteassets.pagecloud.com/golfing4ca/css/hover.css">');
-common$('head').append('<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">');
-common$('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.golfing4ca.org/golfing4ca/s3ShareIt/master/css/s3ShareIt.css">');
-common$('head').append('<link rel="stylesheet" type="text/css" href="https://cdn2.golfing4ca.org/golfing4ca/social-likes/master/dist/social-likes_classic.css">');
+//common$('head').append('<link rel="stylesheet" type="text/css" href="//siteassets.pagecloud.com/golfing4ca/css/hover.css">');
+//common$('head').append('<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">');
+//common$('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.golfing4ca.org/golfing4ca/s3ShareIt/master/css/s3ShareIt.css">');
+//common$('head').append('<link rel="stylesheet" type="text/css" href="https://cdn2.golfing4ca.org/golfing4ca/social-likes/master/dist/social-likes_classic.css">');
 
 console.log( "loading common scripts" );
 /*
