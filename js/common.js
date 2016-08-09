@@ -2,7 +2,13 @@
 <HEAD>: document.head.appendChild(node);
 <BODY>: document.body.appendChild(node);
 */
-function loadCommon( jQuery ) {
+
+function preload(arrayOfImages) {
+$(arrayOfImages).each(function() {
+  $('<img/>')[0].src = this;
+  // Alternatively you could use:
+  // (new Image()).src = this;
+
 console.log(common$);
 console.log( "loading common styles" );
 //common$('head').append('<link rel="stylesheet" type="text/css" href="//siteassets.pagecloud.com/golfing4ca/css/hover.css">');
@@ -23,10 +29,4 @@ common$('head').append('<script src="https://cdn.golfing4ca.org/golfing4ca/s3Sha
 common$('head').append('<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>');
 common$('head').append('<script src="https://load.sumome.com/" data-sumo-site-id="12ee2b1c2563d228da54eed4f7s09ff32f5aea5ecba20d58c66580fea4d1cdf70" async="async"></script>');
 }
-function preload(arrayOfImages) {
-$(arrayOfImages).each(function() {
-  $('<img/>')[0].src = this;
-  // Alternatively you could use:
-  // (new Image()).src = this;
 });
-}
