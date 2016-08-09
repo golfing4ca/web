@@ -3,6 +3,7 @@
 <BODY>: document.body.appendChild(node);
 */
 $(function(common$) {
+console.log(common$);
 console.log( "loading common styles" );
 //common$('head').append('<link rel="stylesheet" type="text/css" href="//siteassets.pagecloud.com/golfing4ca/css/hover.css">');
 //common$('head').append('<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">');
